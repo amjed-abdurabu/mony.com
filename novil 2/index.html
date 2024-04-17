@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en-US,ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href=" images/ogo.png">
+          <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.min.css">               
+</head>
+<style>
+	.mony{
+		font-size:35px;
+		}
+@media only screen and (max-width: 700px){
+	        .monylo{
+		font-size:20%;
+}
+			.mony{
+				font-size: 25px;
+}
+}
+
+.btn-outline-ins {
+  color: #d63384;
+  border-color: #d63384;
+}
+
+.btn-outline-ins:hover {
+  color: #fff;
+  background-color: #d63384;
+  border-color: #d63384;
+}
+
+
+	</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+        	<img src=" images/ogo.png"style=" height:50px;" class="monylo">
+          <a class="mony navbar-brand text-info"  href="#">موني</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">servicess</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">contact us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tracks
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Frontend</a></li>
+                  <li><a class="dropdown-item" href="#">Backend</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Full stack</a></li>
+                </ul>
+              </li>
+            </ul>
+     <!--       <form class="d-flex"> <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">  <button class="btn btn-outline-success" type="submit">Search</button>  </form>--->
+          </div>
+        </div>
+      </nav>
+
+  <!------------start navbar-------------------->
+  
+  <!------------End navbar Start slide-------------------->
+<div class="containerz" >
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    
+    <div class="carousel-inner">
+
+      <!------img 1-------->
+
+      <div class="carousel-item active">
+        <img src="1.jpg" class="d-block w-100 h2" style="border-radius: 10px;">
+   
+      </div>
+
+      <!------img 2-------->
+
+      <div class="carousel-item">
+        <img src="2.jpg" class="d-block w-100 h2" style="border-radius: 10px;">
+      </div>
+
+      <!------img 3-------->
+
+      <div class="carousel-item">
+        <img src="4.jpg" class="d-block w-100 h2" class="image" style="border-radius: 10px;">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  
+  </div>
+</div>
+
+
+
+    <!-- Start Stats -->
+
+    <div class="stats" id="stats">
+
+      	
+        <div class="box">
+          <i class="far fa-user fa-2x fa-fw"></i>
+          <span class="number" data-goal="190">0</span>
+          <span class="text">زائر</span>
+        </div>
+      
+        
+     
+
+
+    </div>
+
+    <!-- End Stats -->
+  <!------------End slide Start Card-------------------->
+
+<div class="text-center m-5">
+    <h1>اختر تصميم</h1>
+    <p> معرض الاعمال </p>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 p-1 col-md-6 col-12">
+            <div class="card" >
+                <img class="card-img-top imgw" src="images/6.jpg" alt="Card image cap"style="border-radius:10px ; height:300px;" >
+                <div class="card-body">
+                  <h5 class="card-title">Website one</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ حجز
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"> اختر تطبيق للحجز و تواصل </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      
+          <!-- Section: Social media -->
+          <center>
+            <!-- Facebook -->
+            <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button">
+              <i class="fab fa-facebook-f"></i>
+          </a>
+    
+               <!-- Instagram -->
+               <a class="btn btn-outline-ins btn-floating m-1" href="#!" role="button">
+                <i class="fab fa-instagram"></i >
+                </a>
+            </center>
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4 p-1 col-md-6 col-12">
+            <div class="card" >
+                <img class="card-img-top imgw" src="images/5.jpg" alt="Card image cap"style="border-radius:10px ; height:300px;" >
+                <div class="card-body">
+                  <h5 class="card-title">Website one</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                             <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  حجز
+ </button>
+ 
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" id="exampleModalLabel"> اختر تطبيق للحجز و تواصل </h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+       
+           <!-- Section: Social media -->
+           <center>
+             <!-- Facebook -->
+             <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button">
+               <i class="fab fa-facebook-f"></i>
+           </a>
+     
+                <!-- Instagram -->
+                <a class="btn btn-outline-ins btn-floating m-1" href="#!" role="button">
+                 <i class="fab fa-instagram"></i >
+                 </a>
+             </center>
+       </div>
+     </div>
+   </div>
+ </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4 p-1 col-md-6 col-12">
+            <div class="card" >
+                <img class="card-img-top imgw" src="images/8.jpg" alt="Card image cap"style="border-radius:10px ; height:300px;" >
+                <div class="card-body">
+                  <h5 class="card-title">Website one</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                             <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  حجز
+ </button>
+ 
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" id="exampleModalLabel"> اختر تطبيق للحجز و تواصل </h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+       
+           <!-- Section: Social media -->
+           <center>
+             <!-- Facebook -->
+             <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button">
+               <i class="fab fa-facebook-f"></i>
+           </a>
+     
+                <!-- Instagram -->
+                <a class="btn btn-outline-ins btn-floating m-1" href="#!" role="button">
+                 <i class="fab fa-instagram"></i >
+                 </a>
+             </center>
+       </div>
+     </div>
+   </div>
+ </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4 p-1 col-md-6 col-12">
+            <div class="card" >
+                <img class="card-img-top imgw" src="images/1.jpg" alt="Card image cap"style="border-radius:10px ; height:300px;" >
+                <div class="card-body">
+                  <h5 class="card-title">Website one</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                             <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  حجز
+ </button>
+ 
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" id="exampleModalLabel"> اختر تطبيق للحجز و تواصل </h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+       
+           <!-- Section: Social media -->
+           <center>
+             <!-- Facebook -->
+             <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button">
+               <i class="fab fa-facebook-f"></i>
+           </a>
+     
+                <!-- Instagram -->
+                <a class="btn btn-outline-ins btn-floating m-1" href="#!" role="button">
+                 <i class="fab fa-instagram"></i >
+                 </a>
+             </center>
+       </div>
+     </div>
+   </div>
+ </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4 p-1 col-md-6 col-12">
+            <div class="card" >
+                <img class="card-img-top imgw" src="images/7.jpg" alt="Card image cap"style="border-radius:10px ; height:300px;" >
+                <div class="card-body">
+                  <h5 class="card-title">Website one</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                             <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  حجز
+ </button>
+ 
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" id="exampleModalLabel"> اختر تطبيق للحجز و تواصل </h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+       
+           <!-- Section: Social media -->
+           <center>
+             <!-- Facebook -->
+             <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button">
+               <i class="fab fa-facebook-f"></i>
+           </a>
+     
+                <!-- Instagram -->
+                <a class="btn btn-outline-ins btn-floating m-1" href="#!" role="button">
+                 <i class="fab fa-instagram"></i >
+                 </a>
+             </center>
+       </div>
+     </div>
+   </div>
+ </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-4 p-1 col-md-6 col-12">
+            <div class="card" >
+                <img class="card-img-top imgw" src="images/8.jpg" alt="Card image cap" style="border-radius:10px ; height:300px;" >
+                <div class="card-body">
+                  <h5 class="card-title">Website one</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                             <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  حجز
+ </button>
+ 
+ <!-- Modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" id="exampleModalLabel"> اختر تطبيق للحجز و تواصل </h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body">
+       
+           <!-- Section: Social media -->
+           <center>
+             <!-- Facebook -->
+             <a class="btn btn-outline-primary btn-floating m-1" href="#!" role="button">
+               <i class="fab fa-facebook-f"></i>
+           </a>
+     
+                <!-- Instagram -->
+                <a class="btn btn-outline-ins btn-floating m-1" href="#!" role="button">
+                 <i class="fab fa-instagram"></i >
+                 </a>
+             </center>
+       </div>
+     </div>
+   </div>
+ </div>
+                </div>
+              </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+    <!-- Start Skills -->
+
+
+<center>
+<h2 class="main-title">Our Skills</h2>
+</center>
+    <div class="our-skills" id="our-skills"> 
+
+      <div class="container">
+        <img src="imgs/skills.png" alt="" />
+        <div class="skills">
+          <div class="skill">
+            <h3>صنعاني <span>80%</span></h3>
+            <div class="the-progress">
+              <span style="width: 0" data-width="80%"></span>
+            </div>
+          </div>
+          <div class="skill">
+            <h3>تراثي <span>85%</span></h3>
+            <div class="the-progress">
+              <span style="width: 0" data-width="85%"></span>
+            </div>
+          </div>
+          <div class="skill">
+            <h3>عصري <span>70%</span></h3>
+            <div class="the-progress">
+              <span style="width: 0" data-width="70%"></span>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </div>
+
+    <!-- End Skills -->
+
+
+<div class="text-center m-5">
+    <h1>Portofolio</h1>
+    <p> معرض الاعمال السابقه</p>
+</div>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+
+           <!-- Instagram -->
+           <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+           ><i class="fab fa-instagram"></i
+         ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+  
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+  
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+          eum harum corrupti dicta, aliquam sequi voluptate quas.
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright:
+      <a style="text-decoration: none;" class="text-white" href="">Mostafa radwan</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+<script src="js/jquery-3.6.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/popper.min.js"></script>
+  <script>
+    function changeContent() {
+      alert("Hi I'm an alert box.");
+    }
+    
+  </script>
+    <script>
+    	/*
+ ** Countdown Timer
+ ** Video URL: https://www.youtube.com/watch?v=eFsiOTJrrE8
+ */
+
+// The End Of The Year Date
+// 1000 milliseconds = 1 Second
+
+let countDownDate = new Date("Dec 31, 2022 23:59:59").getTime();
+// console.log(countDownDate);
+
+let counter = setInterval(() => {
+  // Get Date Now
+  let dateNow = new Date().getTime();
+
+  // Find The Date Difference Between Now And Countdown Date
+  let dateDiff = countDownDate - dateNow;
+
+  // Get Time Units
+  // let days = Math.floor(dateDiff / 1000 / 60 / 60 / 24);
+  let days = Math.floor(dateDiff / (1000 * 60 * 60 * 24));
+  let hours = Math.floor((dateDiff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  let minutes = Math.floor((dateDiff % (1000 * 60 * 60)) / (1000 * 60));
+  let seconds = Math.floor((dateDiff % (1000 * 60)) / 1000);
+
+  document.querySelector(".days").innerHTML = days < 10 ? `0${days}` : days;
+  document.querySelector(".hours").innerHTML = hours < 10 ? `0${hours}` : hours;
+  document.querySelector(".minutes").innerHTML = minutes < 10 ? `0${minutes}` : minutes;
+  document.querySelector(".seconds").innerHTML = seconds < 10 ? `0${seconds}` : seconds;
+
+  if (dateDiff < 0) {
+    clearInterval(counter);
+  }
+}, 1000);
+
+/*
+ ** Animate Width On Scrolling
+ ** Video URL: https://youtu.be/sbIoIKI9FOc
+ */
+
+/*
+ ** Increase Numbers On Scrolling
+ ** Video URL: https://youtu.be/PLsUdgLnzgQ
+ */
+
+let progressSpans = document.querySelectorAll(".the-progress span");
+let section = document.querySelector(".our-skills");
+
+let nums = document.querySelectorAll(".stats .number");
+let statsSection = document.querySelector(".stats");
+let started = false; // Function Started ? No
+
+window.onscroll = function () {
+  // Skills Animate Width
+  if (window.scrollY >= section.offsetTop - 250) {
+    progressSpans.forEach((span) => {
+      span.style.width = span.dataset.width;
+    });
+  }
+  // Stats Increase Number
+  if (window.scrollY >= statsSection.offsetTop) {
+    if (!started) {
+      nums.forEach((num) => startCount(num));
+    }
+    started = true;
+  }
+};
+
+function startCount(el) {
+  let goal = el.dataset.goal;
+  let count = setInterval(() => {
+    el.textContent++;
+    if (el.textContent == goal) {
+      clearInterval(count);
+    }
+  }, 2000 / goal);
+}
+
+</script>    
+</body>
+</html>
+
+
+
+
+
+
+
+<style>
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #2196f3;
+  --main-color-alt: #1787e0;
+  --main-transition: 0.3s;
+  --main-padding-top: 100px;
+  --main-padding-bottom: 100px;
+  --section-background: #ececec;
+  --white-background:#fff;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Cairo", sans-serif;
+}
+
+/* Start Skills */
+
+.our-skills {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+  background-color: var(--section-background);
+  position: relative;
+}
+.our-skills .container {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .our-skills img {
+    display: none;
+  }
+}
+.our-skills .skills {
+  flex: 1;
+}
+.our-skills .skill h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-skills .skill h3 span {
+  font-size: 12px;
+  border: 1px solid #ccc;
+  padding: 3px 5px;
+  border-radius: 4px;
+  color: var(--main-color);
+}
+.our-skills .skill .the-progress {
+  height: 30px;
+  background-color: #eee;
+  position: relative;
+}
+.our-skills .skill .the-progress span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: var(--main-color);
+  transition: width 0.5s linear;
+}
+
+/* End Skills */
+
+
+
+/* Start Stats */
+.stats {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+  position: relative;
+  background-image: url("../imgs/stats.jpg");
+  background-size: cover;
+  min-height: 300px;
+}
+.stats::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255 255 255 / 95%);
+}
+.stats h2 {
+  font-weight: bold;
+  font-size: 40px;
+  width: fit-content;
+  margin: 0 auto 50px;
+  position: relative;
+}
+.stats .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+.stats .box {
+  background-color: white;
+  padding: 30px 15px;
+  text-align: center;
+  position: relative;
+  opacity: 0.8;
+  transition: var(--main-transition);
+}
+.stats .box::before,
+.stats .box::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background-color: var(--main-color);
+  transition: 1s;
+  height: 0;
+}
+.stats .box::before {
+  top: 0;
+  right: 0;
+}
+.stats .box::after {
+  left: 0;
+  bottom: 0;
+}
+.stats .box:hover {
+  opacity: 1;
+}
+.stats .box:hover::before,
+.stats .box:hover::after {
+  height: 100%;
+}
+.stats .box .number {
+  display: block;
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.stats .box .text {
+  color: var(--main-color);
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+}
+/* End Stats */
+
+@media (max-width: 600px) {
+.h2{
+	height: 15rem;
+}
+}
+
+    .imgw{
+height: 250px;
+}
+</style>
+
+
+
+
+
